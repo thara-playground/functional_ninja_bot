@@ -1,0 +1,8 @@
+### Starting build.
+# Target: src/ninja.ml.depends, tags: { debug, extension:ml, file:src/ninja.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -modules src/ninja.ml > src/ninja.ml.depends
+# Target: src/ninja.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ninja.cmo, file:src/ninja.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -g -I src -o src/ninja.cmo src/ninja.ml
+# Target: src/ninja.byte, tags: { byte, debug, dont_link_with, extension:byte, file:src/ninja.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -g -linkpkg src/ninja.cmo -o src/ninja.byte
+# Compilation successful.

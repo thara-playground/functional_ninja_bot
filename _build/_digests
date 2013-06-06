@@ -1,0 +1,4 @@
+"Rule: ocaml: ml -> cmo & cmi (%=src/ninja )": "ªû\025^ÉH¦Û\0071\019É'çÂã"
+"Rule: ocaml dependencies ml (%=src/ninja )": "v\159W\1349»÷ş\024é\029.Â8Dş"
+"Resource: /Users/t_hara/ninja_bot/src/ninja.ml": "BßdTxU\136BñB\135\020Çî\007L"
+"Rule: ocaml: cmo* -> byte (%=src/ninja )": "B½Ôõpèb\024\\æÑQ/\132²Ò"
