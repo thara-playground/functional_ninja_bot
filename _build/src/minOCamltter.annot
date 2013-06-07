@@ -1,0 +1,2369 @@
+"src/minOCamltter.ml" 10 115 115 "src/minOCamltter.ml" 13 165 215
+type(
+  (Auth.t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  ext_ref Auth.t_of_ocaml_exn
+)
+type(
+  (Auth.t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+ident(
+  ext_ref Auth.t_of_ocaml
+)
+type(
+  Auth.t -> Ocaml.t
+)
+ident(
+  ext_ref Auth.ocaml_of_t
+)
+"src/minOCamltter.ml" 30 686 710 "src/minOCamltter.ml" 30 686 716
+type(
+  string Ocaml_conv.decoder
+)
+ident(
+  ext_ref Ocaml_conv.string_of_ocaml
+)
+type(
+  string Ocaml_conv.encoder
+)
+ident(
+  ext_ref Ocaml_conv.ocaml_of_string
+)
+"src/minOCamltter.ml" 30 686 699 "src/minOCamltter.ml" 30 686 716
+ident(
+  def username "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+"src/minOCamltter.ml" 30 686 726 "src/minOCamltter.ml" 30 686 733
+type(
+  (Twitter.Oauth.t, Ocaml_conv.target) Meta_conv.Types.Decoder.t
+)
+ident(
+  ext_ref Twitter.Oauth.t_of_ocaml
+)
+type(
+  Twitter.Oauth.t -> Ocaml_conv.target
+)
+ident(
+  ext_ref Twitter.Oauth.ocaml_of_t
+)
+"src/minOCamltter.ml" 30 686 718 "src/minOCamltter.ml" 30 686 733
+ident(
+  def oauth "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+"src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+type(
+  (t, Ocaml_conv.target) Meta_conv.Types.Decoder.t
+)
+type(
+  Ocaml_conv.target ->
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target ->
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  int_ref e "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  exn
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  def e "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  t
+)
+ident(
+  int_ref res "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref __t "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Obj.t
+)
+type(
+  t
+)
+ident(
+  int_ref res "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  t -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+type(
+  string list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  int_ref secondary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string * Ocaml_conv.target -> string
+)
+ident(
+  ext_ref Pervasives.fst
+)
+type(
+  (string * Ocaml_conv.target -> string) ->
+  (string * Ocaml_conv.target) list -> string list
+)
+ident(
+  ext_ref Spotlib.Spot.List.map
+)
+type(
+  string
+)
+ident(
+  int_ref __name "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Meta_conv.Error.desc
+)
+type(
+  bool
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  int_ref secondary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (string * Ocaml_conv.target) list ->
+  (string * Ocaml_conv.target) list -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+type(
+  t
+)
+ident(
+  def res "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Twitter.Oauth.t
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref __t "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  Twitter.Oauth.t Ocaml_conv.decoder_exn
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  int_ref primary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref __name "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string ->
+  string ->
+  (string * Ocaml_conv.target) list ->
+  (Ocaml_conv.target Meta_conv.Error.t -> Twitter.Oauth.t) ->
+  (Twitter.Oauth.t, Ocaml_conv.target) Meta_conv.Types.Decoder.t_exn ->
+  (Twitter.Oauth.t, Ocaml_conv.target) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  ext_ref Meta_conv.Internal.field_assoc_exn
+)
+type(
+  string
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref __t "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  string Ocaml_conv.decoder_exn
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  int_ref primary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref __name "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string ->
+  string ->
+  (string * Ocaml_conv.target) list ->
+  (Ocaml_conv.target Meta_conv.Error.t -> string) ->
+  (string, Ocaml_conv.target) Meta_conv.Types.Decoder.t_exn ->
+  (string, Ocaml_conv.target) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  ext_ref Meta_conv.Internal.field_assoc_exn
+)
+type(
+  Twitter.Oauth.t
+)
+type(
+  string
+)
+type(
+  (string * Ocaml_conv.target) list * (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  int_ref fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string list
+)
+ident(
+  int_ref primary_labels "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string list ->
+  (string * Ocaml_conv.target) list ->
+  (string * Ocaml_conv.target) list * (string * Ocaml_conv.target) list
+)
+ident(
+  ext_ref Meta_conv.Internal.filter_fields
+)
+type(
+  (string * Ocaml_conv.target) list * (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  def secondary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  def primary_fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  int_ref e "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  ((string * Ocaml_conv.target) list, Ocaml_conv.target Meta_conv.Error.t)
+  Meta_conv.Result.t
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+ident(
+  def fields "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  ((string * Ocaml_conv.target) list, Ocaml_conv.target Meta_conv.Error.t)
+  Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  def e "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  ((string * Ocaml_conv.target) list, Ocaml_conv.target Meta_conv.Error.t)
+  Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref __t "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+ident(
+  int_ref __name "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  string
+)
+type(
+  string list
+)
+ident(
+  def primary_labels "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def __name "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  def __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref *sth* "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+ident(
+  int_ref *opt* "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  t -> Ocaml.t
+)
+type(
+  t -> Ocaml_conv.target
+)
+type(
+  Ocaml_conv.target
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  string * Ocaml_conv.target
+)
+type(
+  Ocaml_conv.target
+)
+type(
+  Twitter.Oauth.t
+)
+type(
+  t
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  string * Ocaml_conv.target
+)
+type(
+  Ocaml_conv.target
+)
+type(
+  string
+)
+type(
+  t
+)
+ident(
+  int_ref __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  string
+)
+type(
+  (string * Ocaml_conv.target) list
+)
+type(
+  (string * Ocaml_conv.target) list list -> (string * Ocaml_conv.target) list
+)
+ident(
+  ext_ref Spotlib.Spot.List.flatten
+)
+type(
+  string
+)
+type(
+  t
+)
+ident(
+  def __v "src/minOCamltter.ml" 30 686 697 "src/minOCamltter.ml" 30 686 735
+)
+"src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+call(
+  stack
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  int_ref t_of_ocaml_exn "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+type(
+  (t, Ocaml_conv.target) Meta_conv.Types.Decoder.t_exn
+)
+type(
+  Ocaml_conv.target -> t
+)
+type(
+  Ocaml_conv.target -> t
+)
+type(
+  t
+)
+type(
+  t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  int_ref e "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  exn
+)
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+type(
+  t
+)
+ident(
+  int_ref v "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.t
+)
+ident(
+  def e "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  t
+)
+ident(
+  def v "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target Meta_conv.Error.t) Meta_conv.Result.t
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  int_ref v "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref trace "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml_conv.target) Meta_conv.Types.Decoder.t
+)
+ident(
+  int_ref t_of_ocaml "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target
+)
+ident(
+  def v "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+ident(
+  int_ref *sth* "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+ident(
+  int_ref *opt* "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace
+)
+type(
+  Ocaml_conv.target Meta_conv.Error.trace option
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  def t_of_ocaml_exn "ghost-location" 1 0 0 "src/minOCamltter.ml" 86 2725 2728
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+ident(
+  int_ref t_of_ocaml "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+ident(
+  def t_of_ocaml "ghost-location" 1 0 0 "src/minOCamltter.ml" 86 2725 2728
+)
+type(
+  t -> Ocaml.t
+)
+ident(
+  int_ref ocaml_of_t "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+type(
+  t -> Ocaml.t
+)
+type(
+  t -> Ocaml.t
+)
+ident(
+  def ocaml_of_t "ghost-location" 1 0 0 "src/minOCamltter.ml" 86 2725 2728
+)
+type(
+  t -> unit
+)
+type(
+  unit
+)
+type(
+  t
+)
+type(
+  t -> unit
+)
+"src/minOCamltter.ml" 32 754 760 "src/minOCamltter.ml" 32 754 769
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Auth.Token.t * string -> t
+)
+ident(
+  def authorize "src/minOCamltter.ml" 37 951 953 "src/minOCamltter.ml" 86 2725 2728
+)
+"src/minOCamltter.ml" 32 754 770 "src/minOCamltter.ml" 32 754 773
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  def app "src/minOCamltter.ml" 32 754 774 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 32 754 775 "src/minOCamltter.ml" 32 754 776
+type(
+  Twitter.Auth.Token.t
+)
+"src/minOCamltter.ml" 32 754 778 "src/minOCamltter.ml" 32 754 783
+type(
+  string
+)
+ident(
+  def verif "src/minOCamltter.ml" 33 805 809 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 32 754 775 "src/minOCamltter.ml" 32 754 783
+type(
+  Twitter.Auth.Token.t * string
+)
+"src/minOCamltter.ml" 32 754 775 "src/minOCamltter.ml" 32 754 801
+type(
+  Twitter.Auth.Token.t * string
+)
+ident(
+  def verified_token "src/minOCamltter.ml" 33 805 809 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 33 805 813 "src/minOCamltter.ml" 33 805 821
+type(
+  string
+)
+ident(
+  def username "src/minOCamltter.ml" 34 877 881 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 33 805 823 "src/minOCamltter.ml" 33 805 828
+type(
+  Twitter.Auth.Token.t
+)
+ident(
+  def token "src/minOCamltter.ml" 34 877 881 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 33 805 813 "src/minOCamltter.ml" 33 805 828
+type(
+  string * Twitter.Auth.Token.t
+)
+"src/minOCamltter.ml" 33 805 831 "src/minOCamltter.ml" 33 805 854
+type(
+  Twitter.Auth.Consumer.t ->
+  Twitter.Auth.VerifiedToken.t -> string * Twitter.Auth.Token.t
+)
+ident(
+  ext_ref Twitter.Auth.fetch_access_token
+)
+"src/minOCamltter.ml" 33 805 855 "src/minOCamltter.ml" 33 805 858
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 32 754 770 "src/minOCamltter.ml" 32 754 773
+)
+"src/minOCamltter.ml" 33 805 859 "src/minOCamltter.ml" 33 805 873
+type(
+  Twitter.Auth.VerifiedToken.t
+)
+ident(
+  int_ref verified_token "src/minOCamltter.ml" 32 754 775 "src/minOCamltter.ml" 32 754 801
+)
+"src/minOCamltter.ml" 33 805 831 "src/minOCamltter.ml" 33 805 873
+call(
+  stack
+)
+type(
+  string * Twitter.Auth.Token.t
+)
+"src/minOCamltter.ml" 34 877 885 "src/minOCamltter.ml" 34 877 890
+type(
+  Twitter.Oauth.t
+)
+ident(
+  def oauth "src/minOCamltter.ml" 35 926 930 "src/minOCamltter.ml" 35 926 949
+)
+"src/minOCamltter.ml" 34 877 893 "src/minOCamltter.ml" 34 877 903
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Auth.VerifiedToken.t -> Twitter.Oauth.t
+)
+ident(
+  ext_ref Twitter.Auth.oauth
+)
+"src/minOCamltter.ml" 34 877 904 "src/minOCamltter.ml" 34 877 907
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 32 754 770 "src/minOCamltter.ml" 32 754 773
+)
+"src/minOCamltter.ml" 34 877 909 "src/minOCamltter.ml" 34 877 914
+type(
+  Twitter.Auth.Token.t
+)
+ident(
+  int_ref token "src/minOCamltter.ml" 33 805 823 "src/minOCamltter.ml" 33 805 828
+)
+"src/minOCamltter.ml" 34 877 916 "src/minOCamltter.ml" 34 877 921
+type(
+  string
+)
+ident(
+  int_ref verif "src/minOCamltter.ml" 32 754 778 "src/minOCamltter.ml" 32 754 783
+)
+"src/minOCamltter.ml" 34 877 909 "src/minOCamltter.ml" 34 877 921
+type(
+  Twitter.Auth.VerifiedToken.t
+)
+"src/minOCamltter.ml" 34 877 893 "src/minOCamltter.ml" 34 877 922
+call(
+  stack
+)
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 35 926 932 "src/minOCamltter.ml" 35 926 940
+type(
+  string
+)
+ident(
+  int_ref username "src/minOCamltter.ml" 33 805 813 "src/minOCamltter.ml" 33 805 821
+)
+"src/minOCamltter.ml" 35 926 942 "src/minOCamltter.ml" 35 926 947
+type(
+  Twitter.Oauth.t
+)
+ident(
+  int_ref oauth "src/minOCamltter.ml" 34 877 885 "src/minOCamltter.ml" 34 877 890
+)
+"src/minOCamltter.ml" 35 926 930 "src/minOCamltter.ml" 35 926 949
+type(
+  t
+)
+"src/minOCamltter.ml" 34 877 881 "src/minOCamltter.ml" 35 926 949
+type(
+  t
+)
+"src/minOCamltter.ml" 33 805 809 "src/minOCamltter.ml" 35 926 949
+type(
+  t
+)
+"src/minOCamltter.ml" 32 754 774 "src/minOCamltter.ml" 35 926 949
+type(
+  Twitter.Auth.Token.t * string -> t
+)
+"src/minOCamltter.ml" 32 754 770 "src/minOCamltter.ml" 35 926 949
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Auth.Token.t * string -> t
+)
+"src/minOCamltter.ml" 37 951 957 "src/minOCamltter.ml" 37 951 978
+type(
+  string -> Twitter.Auth.Consumer.t -> t
+)
+ident(
+  def authorize_interactive "src/minOCamltter.ml" 47 1373 1375 "src/minOCamltter.ml" 86 2725 2728
+)
+"src/minOCamltter.ml" 37 951 979 "src/minOCamltter.ml" 37 951 986
+type(
+  string
+)
+ident(
+  def appname "src/minOCamltter.ml" 37 951 987 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 37 951 987 "src/minOCamltter.ml" 37 951 990
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  def app "src/minOCamltter.ml" 38 993 997 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 38 993 1001 "src/minOCamltter.ml" 38 993 1004
+type(
+  string
+)
+ident(
+  def url "src/minOCamltter.ml" 39 1055 1059 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 38 993 1006 "src/minOCamltter.ml" 38 993 1020
+type(
+  Twitter.Auth.Token.t
+)
+ident(
+  def req_resp_token "src/minOCamltter.ml" 39 1055 1059 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 38 993 1001 "src/minOCamltter.ml" 38 993 1020
+type(
+  string * Twitter.Auth.Token.t
+)
+"src/minOCamltter.ml" 38 993 1023 "src/minOCamltter.ml" 38 993 1047
+type(
+  Twitter.Auth.Consumer.t -> string * Twitter.Auth.Token.t
+)
+ident(
+  ext_ref Twitter.Auth.fetch_request_token
+)
+"src/minOCamltter.ml" 38 993 1048 "src/minOCamltter.ml" 38 993 1051
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 37 951 987 "src/minOCamltter.ml" 37 951 990
+)
+"src/minOCamltter.ml" 38 993 1023 "src/minOCamltter.ml" 38 993 1051
+call(
+  stack
+)
+type(
+  string * Twitter.Auth.Token.t
+)
+"src/minOCamltter.ml" 39 1055 1059 "src/minOCamltter.ml" 39 1055 1072
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/minOCamltter.ml" 39 1055 1073 "src/minOCamltter.ml" 39 1055 1074
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Spotlib.Spot.( & )
+)
+"src/minOCamltter.ml" 39 1055 1075 "src/minOCamltter.ml" 39 1055 1100
+type(
+  string
+)
+"src/minOCamltter.ml" 39 1055 1101 "src/minOCamltter.ml" 39 1055 1102
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/minOCamltter.ml" 39 1055 1103 "src/minOCamltter.ml" 39 1055 1110
+type(
+  string
+)
+ident(
+  int_ref appname "src/minOCamltter.ml" 37 951 979 "src/minOCamltter.ml" 37 951 986
+)
+"src/minOCamltter.ml" 39 1055 1111 "src/minOCamltter.ml" 39 1055 1112
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/minOCamltter.ml" 39 1055 1113 "src/minOCamltter.ml" 39 1055 1134
+type(
+  string
+)
+"src/minOCamltter.ml" 39 1055 1103 "src/minOCamltter.ml" 39 1055 1134
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 39 1055 1075 "src/minOCamltter.ml" 39 1055 1134
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 39 1055 1059 "src/minOCamltter.ml" 39 1055 1134
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 40 1136 1140 "src/minOCamltter.ml" 40 1136 1153
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/minOCamltter.ml" 40 1136 1154 "src/minOCamltter.ml" 40 1136 1155
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Spotlib.Spot.( & )
+)
+"src/minOCamltter.ml" 40 1136 1156 "src/minOCamltter.ml" 40 1136 1160
+type(
+  string
+)
+"src/minOCamltter.ml" 40 1136 1161 "src/minOCamltter.ml" 40 1136 1162
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/minOCamltter.ml" 40 1136 1163 "src/minOCamltter.ml" 40 1136 1166
+type(
+  string
+)
+ident(
+  int_ref url "src/minOCamltter.ml" 38 993 1001 "src/minOCamltter.ml" 38 993 1004
+)
+"src/minOCamltter.ml" 40 1136 1156 "src/minOCamltter.ml" 40 1136 1166
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 40 1136 1140 "src/minOCamltter.ml" 40 1136 1166
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 41 1168 1172 "src/minOCamltter.ml" 41 1168 1184
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/minOCamltter.ml" 41 1168 1185 "src/minOCamltter.ml" 41 1168 1202
+type(
+  string
+)
+"src/minOCamltter.ml" 41 1168 1172 "src/minOCamltter.ml" 41 1168 1202
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 41 1168 1204 "src/minOCamltter.ml" 41 1168 1209
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"src/minOCamltter.ml" 41 1168 1210 "src/minOCamltter.ml" 41 1168 1216
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"src/minOCamltter.ml" 41 1168 1204 "src/minOCamltter.ml" 41 1168 1216
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 42 1218 1226 "src/minOCamltter.ml" 42 1218 1231
+type(
+  string
+)
+ident(
+  def verif "src/minOCamltter.ml" 43 1250 1254 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 42 1218 1234 "src/minOCamltter.ml" 42 1218 1243
+type(
+  unit -> string
+)
+ident(
+  ext_ref Pervasives.read_line
+)
+"src/minOCamltter.ml" 42 1218 1244 "src/minOCamltter.ml" 42 1218 1246
+type(
+  unit
+)
+"src/minOCamltter.ml" 42 1218 1234 "src/minOCamltter.ml" 42 1218 1246
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 43 1250 1258 "src/minOCamltter.ml" 43 1250 1259
+type(
+  t
+)
+ident(
+  def t "src/minOCamltter.ml" 44 1303 1307 "src/minOCamltter.ml" 45 1366 1371
+)
+"src/minOCamltter.ml" 43 1250 1262 "src/minOCamltter.ml" 43 1250 1271
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Auth.Token.t * string -> t
+)
+ident(
+  int_ref authorize "src/minOCamltter.ml" 32 754 760 "src/minOCamltter.ml" 32 754 769
+)
+"src/minOCamltter.ml" 43 1250 1272 "src/minOCamltter.ml" 43 1250 1275
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 37 951 987 "src/minOCamltter.ml" 37 951 990
+)
+"src/minOCamltter.ml" 43 1250 1277 "src/minOCamltter.ml" 43 1250 1291
+type(
+  Twitter.Auth.Token.t
+)
+ident(
+  int_ref req_resp_token "src/minOCamltter.ml" 38 993 1006 "src/minOCamltter.ml" 38 993 1020
+)
+"src/minOCamltter.ml" 43 1250 1293 "src/minOCamltter.ml" 43 1250 1298
+type(
+  string
+)
+ident(
+  int_ref verif "src/minOCamltter.ml" 42 1218 1226 "src/minOCamltter.ml" 42 1218 1231
+)
+"src/minOCamltter.ml" 43 1250 1277 "src/minOCamltter.ml" 43 1250 1298
+type(
+  Twitter.Auth.Token.t * string
+)
+"src/minOCamltter.ml" 43 1250 1262 "src/minOCamltter.ml" 43 1250 1299
+call(
+  stack
+)
+type(
+  t
+)
+"src/minOCamltter.ml" 44 1303 1307 "src/minOCamltter.ml" 44 1303 1320
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/minOCamltter.ml" 44 1303 1322 "src/minOCamltter.ml" 44 1303 1347
+type(
+  string
+)
+"src/minOCamltter.ml" 44 1303 1347 "src/minOCamltter.ml" 44 1303 1348
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/minOCamltter.ml" 44 1303 1348 "src/minOCamltter.ml" 44 1303 1349
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 43 1250 1258 "src/minOCamltter.ml" 43 1250 1259
+)
+"src/minOCamltter.ml" 44 1303 1348 "src/minOCamltter.ml" 44 1303 1358
+type(
+  string
+)
+"src/minOCamltter.ml" 44 1303 1358 "src/minOCamltter.ml" 44 1303 1359
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/minOCamltter.ml" 44 1303 1359 "src/minOCamltter.ml" 44 1303 1363
+type(
+  string
+)
+"src/minOCamltter.ml" 44 1303 1348 "src/minOCamltter.ml" 44 1303 1363
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 44 1303 1322 "src/minOCamltter.ml" 44 1303 1363
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 44 1303 1307 "src/minOCamltter.ml" 44 1303 1364
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 45 1366 1370 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 43 1250 1258 "src/minOCamltter.ml" 43 1250 1259
+)
+"src/minOCamltter.ml" 44 1303 1307 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 43 1250 1254 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 42 1218 1222 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 41 1168 1204 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 41 1168 1172 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 40 1136 1140 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 39 1055 1059 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 38 993 997 "src/minOCamltter.ml" 45 1366 1371
+type(
+  t
+)
+"src/minOCamltter.ml" 37 951 987 "src/minOCamltter.ml" 45 1366 1371
+type(
+  Twitter.Auth.Consumer.t -> t
+)
+"src/minOCamltter.ml" 37 951 979 "src/minOCamltter.ml" 45 1366 1371
+type(
+  string -> Twitter.Auth.Consumer.t -> t
+)
+"src/minOCamltter.ml" 49 1442 1450 "src/minOCamltter.ml" 49 1442 1454
+type(
+  string -> t -> unit
+)
+ident(
+  def save "src/minOCamltter.ml" 56 1783 1787 "src/minOCamltter.ml" 70 2321 2326
+)
+"src/minOCamltter.ml" 49 1442 1455 "src/minOCamltter.ml" 49 1442 1459
+type(
+  string
+)
+ident(
+  def path "src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 54 1728 1781
+)
+"src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 49 1442 1461
+type(
+  t
+)
+ident(
+  def t "src/minOCamltter.ml" 50 1464 1470 "src/minOCamltter.ml" 54 1728 1781
+)
+"src/minOCamltter.ml" 50 1464 1470 "src/minOCamltter.ml" 50 1464 1483
+type(
+  string -> (out_channel -> unit) -> unit
+)
+ident(
+  ext_ref Twitter.Util.open_out_with
+)
+"src/minOCamltter.ml" 50 1464 1484 "src/minOCamltter.ml" 50 1464 1488
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 49 1442 1455 "src/minOCamltter.ml" 49 1442 1459
+)
+"src/minOCamltter.ml" 50 1464 1494 "src/minOCamltter.ml" 50 1464 1496
+type(
+  out_channel
+)
+ident(
+  def ch "src/minOCamltter.ml" 51 1500 1508 "src/minOCamltter.ml" 54 1728 1780
+)
+"src/minOCamltter.ml" 51 1500 1508 "src/minOCamltter.ml" 51 1500 1521
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"src/minOCamltter.ml" 51 1500 1522 "src/minOCamltter.ml" 51 1500 1524
+type(
+  out_channel
+)
+ident(
+  int_ref ch "src/minOCamltter.ml" 50 1464 1494 "src/minOCamltter.ml" 50 1464 1496
+)
+"src/minOCamltter.ml" 51 1500 1508 "src/minOCamltter.ml" 51 1500 1524
+type(
+  string -> unit
+)
+"src/minOCamltter.ml" 51 1500 1525 "src/minOCamltter.ml" 51 1500 1526
+type(
+  (string -> unit) -> string -> unit
+)
+ident(
+  ext_ref Spotlib.Spot.( & )
+)
+"src/minOCamltter.ml" 51 1500 1527 "src/minOCamltter.ml" 51 1500 1540
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref Spotlib.Spot.String.concat
+)
+"src/minOCamltter.ml" 51 1500 1541 "src/minOCamltter.ml" 51 1500 1545
+type(
+  string
+)
+"src/minOCamltter.ml" 51 1500 1548 "src/minOCamltter.ml" 51 1500 1549
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 49 1442 1461
+)
+"src/minOCamltter.ml" 51 1500 1548 "src/minOCamltter.ml" 51 1500 1555
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 51 1500 1548 "src/minOCamltter.ml" 51 1500 1574
+type(
+  string
+)
+"src/minOCamltter.ml" 52 1576 1624 "src/minOCamltter.ml" 52 1576 1625
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 49 1442 1461
+)
+"src/minOCamltter.ml" 52 1576 1624 "src/minOCamltter.ml" 52 1576 1631
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 52 1576 1624 "src/minOCamltter.ml" 52 1576 1657
+type(
+  string
+)
+"src/minOCamltter.ml" 53 1659 1707 "src/minOCamltter.ml" 53 1659 1708
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 49 1442 1461
+)
+"src/minOCamltter.ml" 53 1659 1707 "src/minOCamltter.ml" 53 1659 1714
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 53 1659 1707 "src/minOCamltter.ml" 53 1659 1726
+type(
+  string
+)
+"src/minOCamltter.ml" 54 1728 1776 "src/minOCamltter.ml" 54 1728 1778
+type(
+  string
+)
+type(
+  string list
+)
+"src/minOCamltter.ml" 53 1659 1707 "src/minOCamltter.ml" 54 1728 1778
+type(
+  string list
+)
+"src/minOCamltter.ml" 52 1576 1624 "src/minOCamltter.ml" 54 1728 1778
+type(
+  string list
+)
+"src/minOCamltter.ml" 51 1500 1548 "src/minOCamltter.ml" 54 1728 1778
+type(
+  string list
+)
+"src/minOCamltter.ml" 51 1500 1546 "src/minOCamltter.ml" 54 1728 1780
+type(
+  string list
+)
+"src/minOCamltter.ml" 51 1500 1527 "src/minOCamltter.ml" 54 1728 1780
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 51 1500 1508 "src/minOCamltter.ml" 54 1728 1780
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 50 1464 1494 "src/minOCamltter.ml" 54 1728 1780
+type(
+  out_channel -> unit
+)
+"src/minOCamltter.ml" 50 1464 1470 "src/minOCamltter.ml" 54 1728 1781
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 49 1442 1460 "src/minOCamltter.ml" 54 1728 1781
+type(
+  t -> unit
+)
+"src/minOCamltter.ml" 49 1442 1455 "src/minOCamltter.ml" 54 1728 1781
+type(
+  string -> t -> unit
+)
+"src/minOCamltter.ml" 56 1783 1791 "src/minOCamltter.ml" 56 1783 1795
+type(
+  string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+ident(
+  def load "src/minOCamltter.ml" 66 2174 2178 "src/minOCamltter.ml" 70 2321 2326
+)
+"src/minOCamltter.ml" 56 1783 1796 "src/minOCamltter.ml" 56 1783 1800
+type(
+  string
+)
+ident(
+  def path "src/minOCamltter.ml" 56 1783 1801 "src/minOCamltter.ml" 64 2134 2172
+)
+"src/minOCamltter.ml" 56 1783 1801 "src/minOCamltter.ml" 56 1783 1804
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  def app "src/minOCamltter.ml" 56 1783 1807 "src/minOCamltter.ml" 64 2134 2172
+)
+"src/minOCamltter.ml" 56 1783 1807 "src/minOCamltter.ml" 56 1783 1819
+type(
+  string -> (in_channel -> Twitter.Oauth.t) -> Twitter.Oauth.t
+)
+ident(
+  ext_ref Twitter.Util.open_in_with
+)
+"src/minOCamltter.ml" 56 1783 1820 "src/minOCamltter.ml" 56 1783 1824
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 56 1783 1796 "src/minOCamltter.ml" 56 1783 1800
+)
+"src/minOCamltter.ml" 56 1783 1830 "src/minOCamltter.ml" 56 1783 1832
+type(
+  in_channel
+)
+ident(
+  def ch "src/minOCamltter.ml" 57 1836 1842 "src/minOCamltter.ml" 64 2134 2171
+)
+"src/minOCamltter.ml" 57 1836 1846 "src/minOCamltter.ml" 57 1836 1851
+type(
+  string
+)
+ident(
+  def token "src/minOCamltter.ml" 58 1874 1880 "src/minOCamltter.ml" 64 2134 2171
+)
+"src/minOCamltter.ml" 57 1836 1857 "src/minOCamltter.ml" 57 1836 1867
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/minOCamltter.ml" 57 1836 1868 "src/minOCamltter.ml" 57 1836 1870
+type(
+  in_channel
+)
+ident(
+  int_ref ch "src/minOCamltter.ml" 56 1783 1830 "src/minOCamltter.ml" 56 1783 1832
+)
+"src/minOCamltter.ml" 57 1836 1857 "src/minOCamltter.ml" 57 1836 1870
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 58 1874 1884 "src/minOCamltter.ml" 58 1874 1890
+type(
+  string
+)
+ident(
+  def secret "src/minOCamltter.ml" 59 1912 1918 "src/minOCamltter.ml" 64 2134 2171
+)
+"src/minOCamltter.ml" 58 1874 1895 "src/minOCamltter.ml" 58 1874 1905
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/minOCamltter.ml" 58 1874 1906 "src/minOCamltter.ml" 58 1874 1908
+type(
+  in_channel
+)
+ident(
+  int_ref ch "src/minOCamltter.ml" 56 1783 1830 "src/minOCamltter.ml" 56 1783 1832
+)
+"src/minOCamltter.ml" 58 1874 1895 "src/minOCamltter.ml" 58 1874 1908
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 59 1912 1922 "src/minOCamltter.ml" 59 1912 1927
+type(
+  string
+)
+ident(
+  def verif "src/minOCamltter.ml" 60 1950 1956 "src/minOCamltter.ml" 64 2134 2171
+)
+"src/minOCamltter.ml" 59 1912 1933 "src/minOCamltter.ml" 59 1912 1943
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/minOCamltter.ml" 59 1912 1944 "src/minOCamltter.ml" 59 1912 1946
+type(
+  in_channel
+)
+ident(
+  int_ref ch "src/minOCamltter.ml" 56 1783 1830 "src/minOCamltter.ml" 56 1783 1832
+)
+"src/minOCamltter.ml" 59 1912 1933 "src/minOCamltter.ml" 59 1912 1946
+call(
+  stack
+)
+type(
+  string
+)
+"src/minOCamltter.ml" 60 1950 1980 "src/minOCamltter.ml" 60 1950 1983
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 56 1783 1801 "src/minOCamltter.ml" 56 1783 1804
+)
+"src/minOCamltter.ml" 60 1950 1980 "src/minOCamltter.ml" 60 1950 2001
+type(
+  string
+)
+"src/minOCamltter.ml" 61 2003 2033 "src/minOCamltter.ml" 61 2003 2036
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 56 1783 1801 "src/minOCamltter.ml" 56 1783 1804
+)
+"src/minOCamltter.ml" 61 2003 2033 "src/minOCamltter.ml" 61 2003 2057
+type(
+  string
+)
+"src/minOCamltter.ml" 62 2059 2089 "src/minOCamltter.ml" 62 2059 2094
+type(
+  string
+)
+ident(
+  int_ref token "src/minOCamltter.ml" 57 1836 1846 "src/minOCamltter.ml" 57 1836 1851
+)
+"src/minOCamltter.ml" 63 2096 2126 "src/minOCamltter.ml" 63 2096 2132
+type(
+  string
+)
+ident(
+  int_ref secret "src/minOCamltter.ml" 58 1874 1884 "src/minOCamltter.ml" 58 1874 1890
+)
+"src/minOCamltter.ml" 64 2134 2164 "src/minOCamltter.ml" 64 2134 2169
+type(
+  string
+)
+ident(
+  int_ref verif "src/minOCamltter.ml" 59 1912 1922 "src/minOCamltter.ml" 59 1912 1927
+)
+"src/minOCamltter.ml" 60 1950 1956 "src/minOCamltter.ml" 64 2134 2171
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 59 1912 1918 "src/minOCamltter.ml" 64 2134 2171
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 58 1874 1880 "src/minOCamltter.ml" 64 2134 2171
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 57 1836 1842 "src/minOCamltter.ml" 64 2134 2171
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 56 1783 1830 "src/minOCamltter.ml" 64 2134 2171
+type(
+  in_channel -> Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 56 1783 1807 "src/minOCamltter.ml" 64 2134 2172
+call(
+  tail
+)
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 56 1783 1801 "src/minOCamltter.ml" 64 2134 2172
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 56 1783 1796 "src/minOCamltter.ml" 64 2134 2172
+type(
+  string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 66 2174 2182 "src/minOCamltter.ml" 66 2174 2187
+type(
+  path:string -> appname:string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+ident(
+  def oauth "src/minOCamltter.ml" 69 2307 2320 "src/minOCamltter.ml" 70 2321 2326
+)
+"src/minOCamltter.ml" 66 2174 2203 "src/minOCamltter.ml" 66 2174 2206
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  def app "src/minOCamltter.ml" 66 2174 2209 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 66 2174 2213 "src/minOCamltter.ml" 66 2174 2217
+type(
+  string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+ident(
+  int_ref load "src/minOCamltter.ml" 56 1783 1791 "src/minOCamltter.ml" 56 1783 1795
+)
+"src/minOCamltter.ml" 66 2174 2218 "src/minOCamltter.ml" 66 2174 2222
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 66 2174 2188 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 66 2174 2223 "src/minOCamltter.ml" 66 2174 2226
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 66 2174 2203 "src/minOCamltter.ml" 66 2174 2206
+)
+"src/minOCamltter.ml" 66 2174 2213 "src/minOCamltter.ml" 66 2174 2226
+call(
+  stack
+)
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 66 2174 2232 "src/minOCamltter.ml" 66 2174 2233
+type(
+  exn
+)
+"src/minOCamltter.ml" 67 2237 2247 "src/minOCamltter.ml" 67 2237 2248
+type(
+  t
+)
+ident(
+  def t "src/minOCamltter.ml" 68 2288 2294 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 67 2237 2251 "src/minOCamltter.ml" 67 2237 2272
+type(
+  string -> Twitter.Auth.Consumer.t -> t
+)
+ident(
+  int_ref authorize_interactive "src/minOCamltter.ml" 37 951 957 "src/minOCamltter.ml" 37 951 978
+)
+"src/minOCamltter.ml" 67 2237 2273 "src/minOCamltter.ml" 67 2237 2280
+type(
+  string
+)
+ident(
+  int_ref appname "src/minOCamltter.ml" 66 2174 2194 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 67 2237 2281 "src/minOCamltter.ml" 67 2237 2284
+type(
+  Twitter.Auth.Consumer.t
+)
+ident(
+  int_ref app "src/minOCamltter.ml" 66 2174 2203 "src/minOCamltter.ml" 66 2174 2206
+)
+"src/minOCamltter.ml" 67 2237 2251 "src/minOCamltter.ml" 67 2237 2284
+call(
+  stack
+)
+type(
+  t
+)
+"src/minOCamltter.ml" 68 2288 2294 "src/minOCamltter.ml" 68 2288 2298
+type(
+  string -> t -> unit
+)
+ident(
+  int_ref save "src/minOCamltter.ml" 49 1442 1450 "src/minOCamltter.ml" 49 1442 1454
+)
+"src/minOCamltter.ml" 68 2288 2299 "src/minOCamltter.ml" 68 2288 2303
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 66 2174 2188 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 68 2288 2304 "src/minOCamltter.ml" 68 2288 2305
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 67 2237 2247 "src/minOCamltter.ml" 67 2237 2248
+)
+"src/minOCamltter.ml" 68 2288 2294 "src/minOCamltter.ml" 68 2288 2305
+call(
+  stack
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 69 2307 2313 "src/minOCamltter.ml" 69 2307 2314
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 67 2237 2247 "src/minOCamltter.ml" 67 2237 2248
+)
+"src/minOCamltter.ml" 69 2307 2313 "src/minOCamltter.ml" 69 2307 2320
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 68 2288 2294 "src/minOCamltter.ml" 69 2307 2320
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 67 2237 2243 "src/minOCamltter.ml" 69 2307 2320
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 66 2174 2209 "src/minOCamltter.ml" 69 2307 2320
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 66 2174 2203 "src/minOCamltter.ml" 69 2307 2320
+type(
+  Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 66 2174 2194 "src/minOCamltter.ml" 69 2307 2320
+type(
+  appname:string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+type(
+  string
+)
+ident(
+  def appname "src/minOCamltter.ml" 66 2174 2203 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 66 2174 2188 "src/minOCamltter.ml" 69 2307 2320
+type(
+  path:string -> appname:string -> Twitter.Auth.Consumer.t -> Twitter.Oauth.t
+)
+type(
+  string
+)
+ident(
+  def path "src/minOCamltter.ml" 66 2174 2194 "src/minOCamltter.ml" 69 2307 2320
+)
+"src/minOCamltter.ml" 72 2328 2334 "src/minOCamltter.ml" 72 2328 2338
+type(
+  string -> t list
+)
+ident(
+  def load "src/minOCamltter.ml" 78 2471 2473 "src/minOCamltter.ml" 86 2725 2728
+)
+"src/minOCamltter.ml" 72 2328 2339 "src/minOCamltter.ml" 72 2328 2343
+type(
+  string
+)
+ident(
+  def path "src/minOCamltter.ml" 73 2346 2350 "src/minOCamltter.ml" 76 2455 2469
+)
+"src/minOCamltter.ml" 73 2346 2350 "src/minOCamltter.ml" 73 2346 2360
+type(
+  in_channel -> (in_channel -> t list) -> (in_channel -> unit) -> t list
+)
+ident(
+  ext_ref Spotlib.Spot.with_final
+)
+"src/minOCamltter.ml" 74 2361 2368 "src/minOCamltter.ml" 74 2361 2375
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/minOCamltter.ml" 74 2361 2376 "src/minOCamltter.ml" 74 2361 2380
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 72 2328 2339 "src/minOCamltter.ml" 72 2328 2343
+)
+"src/minOCamltter.ml" 74 2361 2368 "src/minOCamltter.ml" 74 2361 2380
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/minOCamltter.ml" 75 2382 2393 "src/minOCamltter.ml" 75 2382 2395
+type(
+  in_channel
+)
+ident(
+  def ic "src/minOCamltter.ml" 75 2382 2399 "src/minOCamltter.ml" 75 2382 2453
+)
+"src/minOCamltter.ml" 75 2382 2399 "src/minOCamltter.ml" 75 2382 2407
+type(
+  (Ocaml.t -> t) -> Ocaml.t list -> t list
+)
+ident(
+  ext_ref Spotlib.Spot.List.map
+)
+"src/minOCamltter.ml" 75 2382 2408 "src/minOCamltter.ml" 75 2382 2422
+call(
+  tail
+)
+type(
+  (t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+ident(
+  int_ref t_of_ocaml_exn "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+"src/minOCamltter.ml" 75 2382 2424 "src/minOCamltter.ml" 75 2382 2449
+type(
+  in_channel -> Ocaml.t list
+)
+ident(
+  ext_ref Ocaml.Parser.from_channel
+)
+"src/minOCamltter.ml" 75 2382 2450 "src/minOCamltter.ml" 75 2382 2452
+type(
+  in_channel
+)
+ident(
+  int_ref ic "src/minOCamltter.ml" 75 2382 2393 "src/minOCamltter.ml" 75 2382 2395
+)
+"src/minOCamltter.ml" 75 2382 2424 "src/minOCamltter.ml" 75 2382 2452
+call(
+  stack
+)
+type(
+  Ocaml.t list
+)
+"src/minOCamltter.ml" 75 2382 2399 "src/minOCamltter.ml" 75 2382 2453
+call(
+  tail
+)
+type(
+  t list
+)
+"src/minOCamltter.ml" 75 2382 2393 "src/minOCamltter.ml" 75 2382 2453
+type(
+  in_channel -> t list
+)
+"src/minOCamltter.ml" 76 2455 2461 "src/minOCamltter.ml" 76 2455 2469
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/minOCamltter.ml" 73 2346 2350 "src/minOCamltter.ml" 76 2455 2469
+call(
+  tail
+)
+type(
+  t list
+)
+"src/minOCamltter.ml" 72 2328 2339 "src/minOCamltter.ml" 76 2455 2469
+type(
+  string -> t list
+)
+"src/minOCamltter.ml" 78 2471 2477 "src/minOCamltter.ml" 78 2471 2481
+type(
+  string -> t list -> unit
+)
+ident(
+  def save "src/minOCamltter.ml" 84 2708 2723 "src/minOCamltter.ml" 86 2725 2728
+)
+"src/minOCamltter.ml" 78 2471 2482 "src/minOCamltter.ml" 78 2471 2486
+type(
+  string
+)
+ident(
+  def path "src/minOCamltter.ml" 78 2471 2487 "src/minOCamltter.ml" 84 2708 2723
+)
+"src/minOCamltter.ml" 78 2471 2487 "src/minOCamltter.ml" 78 2471 2489
+type(
+  t list
+)
+ident(
+  def ts "src/minOCamltter.ml" 79 2492 2496 "src/minOCamltter.ml" 84 2708 2723
+)
+"src/minOCamltter.ml" 79 2492 2496 "src/minOCamltter.ml" 79 2492 2506
+type(
+  out_channel -> (out_channel -> unit) -> (out_channel -> unit) -> unit
+)
+ident(
+  ext_ref Spotlib.Spot.with_final
+)
+"src/minOCamltter.ml" 80 2507 2514 "src/minOCamltter.ml" 80 2507 2526
+type(
+  open_flag list -> int -> string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out_gen
+)
+"src/minOCamltter.ml" 80 2507 2528 "src/minOCamltter.ml" 80 2507 2539
+type(
+  open_flag
+)
+type(
+  open_flag list
+)
+"src/minOCamltter.ml" 80 2507 2527 "src/minOCamltter.ml" 80 2507 2540
+type(
+  open_flag list
+)
+"src/minOCamltter.ml" 80 2507 2541 "src/minOCamltter.ml" 80 2507 2546
+type(
+  int
+)
+"src/minOCamltter.ml" 80 2507 2547 "src/minOCamltter.ml" 80 2507 2551
+type(
+  string
+)
+ident(
+  int_ref path "src/minOCamltter.ml" 78 2471 2482 "src/minOCamltter.ml" 78 2471 2486
+)
+"src/minOCamltter.ml" 80 2507 2514 "src/minOCamltter.ml" 80 2507 2551
+call(
+  stack
+)
+type(
+  out_channel
+)
+"src/minOCamltter.ml" 81 2553 2564 "src/minOCamltter.ml" 81 2553 2566
+type(
+  out_channel
+)
+ident(
+  def oc "src/minOCamltter.ml" 82 2570 2578 "src/minOCamltter.ml" 83 2626 2706
+)
+"src/minOCamltter.ml" 82 2570 2582 "src/minOCamltter.ml" 82 2570 2585
+type(
+  Spotlib.Spot.Format.formatter
+)
+ident(
+  def ppf "src/minOCamltter.ml" 83 2626 2634 "src/minOCamltter.ml" 83 2626 2706
+)
+"src/minOCamltter.ml" 82 2570 2588 "src/minOCamltter.ml" 82 2570 2619
+type(
+  out_channel -> Spotlib.Spot.Format.formatter
+)
+ident(
+  ext_ref Spotlib.Spot.Format.formatter_of_out_channel
+)
+"src/minOCamltter.ml" 82 2570 2620 "src/minOCamltter.ml" 82 2570 2622
+type(
+  out_channel
+)
+ident(
+  int_ref oc "src/minOCamltter.ml" 81 2553 2564 "src/minOCamltter.ml" 81 2553 2566
+)
+"src/minOCamltter.ml" 82 2570 2588 "src/minOCamltter.ml" 82 2570 2622
+call(
+  stack
+)
+type(
+  Spotlib.Spot.Format.formatter
+)
+"src/minOCamltter.ml" 83 2626 2634 "src/minOCamltter.ml" 83 2626 2643
+type(
+  (t -> unit) -> t list -> unit
+)
+ident(
+  ext_ref Spotlib.Spot.List.iter
+)
+"src/minOCamltter.ml" 83 2626 2649 "src/minOCamltter.ml" 83 2626 2650
+type(
+  t
+)
+ident(
+  def t "src/minOCamltter.ml" 83 2626 2654 "src/minOCamltter.ml" 83 2626 2702
+)
+"src/minOCamltter.ml" 83 2626 2654 "src/minOCamltter.ml" 83 2626 2671
+type(
+  ?no_poly:bool ->
+  ?raw_string:bool ->
+  (t -> Ocaml.t) -> Spotlib.Spot.Format.formatter -> t -> unit
+)
+ident(
+  ext_ref Ocaml.format_with
+)
+"src/minOCamltter.ml" 83 2626 2681 "src/minOCamltter.ml" 83 2626 2685
+type(
+  bool
+)
+"src/minOCamltter.ml" 83 2626 2686 "src/minOCamltter.ml" 83 2626 2696
+type(
+  t -> Ocaml.t
+)
+ident(
+  int_ref ocaml_of_t "src/minOCamltter.ml" 30 686 693 "src/minOCamltter.ml" 30 686 735
+)
+"src/minOCamltter.ml" 83 2626 2697 "src/minOCamltter.ml" 83 2626 2700
+type(
+  Spotlib.Spot.Format.formatter
+)
+ident(
+  int_ref ppf "src/minOCamltter.ml" 82 2570 2582 "src/minOCamltter.ml" 82 2570 2585
+)
+"src/minOCamltter.ml" 83 2626 2701 "src/minOCamltter.ml" 83 2626 2702
+type(
+  t
+)
+ident(
+  int_ref t "src/minOCamltter.ml" 83 2626 2649 "src/minOCamltter.ml" 83 2626 2650
+)
+"src/minOCamltter.ml" 83 2626 2654 "src/minOCamltter.ml" 83 2626 2702
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 83 2626 2649 "src/minOCamltter.ml" 83 2626 2702
+type(
+  t -> unit
+)
+"src/minOCamltter.ml" 83 2626 2704 "src/minOCamltter.ml" 83 2626 2706
+type(
+  t list
+)
+ident(
+  int_ref ts "src/minOCamltter.ml" 78 2471 2487 "src/minOCamltter.ml" 78 2471 2489
+)
+"src/minOCamltter.ml" 83 2626 2634 "src/minOCamltter.ml" 83 2626 2706
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 82 2570 2578 "src/minOCamltter.ml" 83 2626 2706
+type(
+  unit
+)
+"src/minOCamltter.ml" 81 2553 2564 "src/minOCamltter.ml" 83 2626 2706
+type(
+  out_channel -> unit
+)
+"src/minOCamltter.ml" 84 2708 2714 "src/minOCamltter.ml" 84 2708 2723
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"src/minOCamltter.ml" 79 2492 2496 "src/minOCamltter.ml" 84 2708 2723
+call(
+  tail
+)
+type(
+  unit
+)
+"src/minOCamltter.ml" 78 2471 2487 "src/minOCamltter.ml" 84 2708 2723
+type(
+  t list -> unit
+)
+"src/minOCamltter.ml" 78 2471 2482 "src/minOCamltter.ml" 84 2708 2723
+type(
+  string -> t list -> unit
+)
+"src/minOCamltter.ml" 10 115 115 "src/minOCamltter.ml" 86 2725 2728
+type(
+  (Auth.t, Ocaml.t) Meta_conv.Types.Decoder.t_exn
+)
+type(
+  (Auth.t, Ocaml.t) Meta_conv.Types.Decoder.t
+)
+type(
+  Auth.t -> Ocaml.t
+)
+"src/minOCamltter.ml" 88 2730 2734 "src/minOCamltter.ml" 88 2730 2750
+type(
+  string
+)
+ident(
+  def application_name "src/minOCamltter.ml" 89 2765 2765 "_none_" 1 0 -1
+)
+"src/minOCamltter.ml" 88 2730 2753 "src/minOCamltter.ml" 88 2730 2764
+type(
+  string
+)
+"src/minOCamltter.ml" 89 2765 2769 "src/minOCamltter.ml" 89 2765 2780
+type(
+  string ref
+)
+ident(
+  def config_file "src/minOCamltter.ml" 91 2814 2814 "_none_" 1 0 -1
+)
+"src/minOCamltter.ml" 89 2765 2783 "src/minOCamltter.ml" 89 2765 2786
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/minOCamltter.ml" 89 2765 2787 "src/minOCamltter.ml" 89 2765 2812
+type(
+  string
+)
+"src/minOCamltter.ml" 89 2765 2783 "src/minOCamltter.ml" 89 2765 2812
+type(
+  string ref
+)
+"src/minOCamltter.ml" 91 2814 2818 "src/minOCamltter.ml" 91 2814 2830
+type(
+  Twitter.Oauth.t option ref
+)
+ident(
+  def cached_oauth "src/minOCamltter.ml" 93 2843 2843 "_none_" 1 0 -1
+)
+"src/minOCamltter.ml" 91 2814 2833 "src/minOCamltter.ml" 91 2814 2836
+type(
+  Twitter.Oauth.t option -> Twitter.Oauth.t option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/minOCamltter.ml" 91 2814 2837 "src/minOCamltter.ml" 91 2814 2841
+type(
+  Twitter.Oauth.t option
+)
+"src/minOCamltter.ml" 91 2814 2833 "src/minOCamltter.ml" 91 2814 2841
+type(
+  Twitter.Oauth.t option ref
+)
+"src/minOCamltter.ml" 93 2843 2847 "src/minOCamltter.ml" 93 2843 2856
+type(
+  unit -> Twitter.Oauth.t
+)
+ident(
+  def get_oauth "src/minOCamltter.ml" 98 3060 3071 "_none_" 1 0 -1
+)
+"src/minOCamltter.ml" 93 2843 2857 "src/minOCamltter.ml" 93 2843 2859
+type(
+  unit
+)
+"src/minOCamltter.ml" 93 2843 2869 "src/minOCamltter.ml" 93 2843 2881
+type(
+  Twitter.Oauth.t option ref
+)
+ident(
+  int_ref cached_oauth "src/minOCamltter.ml" 91 2814 2818 "src/minOCamltter.ml" 91 2814 2830
+)
+"src/minOCamltter.ml" 93 2843 2868 "src/minOCamltter.ml" 93 2843 2881
+type(
+  Twitter.Oauth.t option
+)
+type(
+  Twitter.Oauth.t option ref -> Twitter.Oauth.t option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/minOCamltter.ml" 94 2887 2896 "src/minOCamltter.ml" 94 2887 2901
+type(
+  Twitter.Oauth.t
+)
+ident(
+  def oauth "src/minOCamltter.ml" 94 2887 2905 "src/minOCamltter.ml" 94 2887 2910
+)
+"src/minOCamltter.ml" 94 2887 2891 "src/minOCamltter.ml" 94 2887 2901
+type(
+  Twitter.Oauth.t option
+)
+"src/minOCamltter.ml" 94 2887 2905 "src/minOCamltter.ml" 94 2887 2910
+type(
+  Twitter.Oauth.t
+)
+ident(
+  int_ref oauth "src/minOCamltter.ml" 94 2887 2896 "src/minOCamltter.ml" 94 2887 2901
+)
+"src/minOCamltter.ml" 95 2911 2915 "src/minOCamltter.ml" 95 2911 2919
+type(
+  Twitter.Oauth.t option
+)
+"src/minOCamltter.ml" 96 2923 2933 "src/minOCamltter.ml" 96 2923 2938
+type(
+  Twitter.Oauth.t
+)
+ident(
+  def oauth "src/minOCamltter.ml" 97 3026 3032 "src/minOCamltter.ml" 98 3060 3071
+)
+"src/minOCamltter.ml" 96 2923 2941 "src/minOCamltter.ml" 96 2923 2958
+type(
+  path:string -> appname:string -> Consumer.t -> Twitter.Oauth.t
+)
+ident(
+  ext_ref Auth.Single.oauth
+)
+"src/minOCamltter.ml" 96 2923 2966 "src/minOCamltter.ml" 96 2923 2977
+type(
+  string ref
+)
+ident(
+  int_ref config_file "src/minOCamltter.ml" 89 2765 2769 "src/minOCamltter.ml" 89 2765 2780
+)
+"src/minOCamltter.ml" 96 2923 2965 "src/minOCamltter.ml" 96 2923 2977
+type(
+  string
+)
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/minOCamltter.ml" 96 2923 2987 "src/minOCamltter.ml" 96 2923 3003
+type(
+  string
+)
+ident(
+  int_ref application_name "src/minOCamltter.ml" 88 2730 2734 "src/minOCamltter.ml" 88 2730 2750
+)
+"src/minOCamltter.ml" 96 2923 3004 "src/minOCamltter.ml" 96 2923 3022
+type(
+  Consumer.t
+)
+ident(
+  ext_ref Consumer.ocamltter
+)
+"src/minOCamltter.ml" 96 2923 2941 "src/minOCamltter.ml" 96 2923 3022
+call(
+  stack
+)
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 97 3026 3032 "src/minOCamltter.ml" 97 3026 3044
+type(
+  Twitter.Oauth.t option ref
+)
+ident(
+  int_ref cached_oauth "src/minOCamltter.ml" 91 2814 2818 "src/minOCamltter.ml" 91 2814 2830
+)
+"src/minOCamltter.ml" 97 3026 3053 "src/minOCamltter.ml" 97 3026 3058
+type(
+  Twitter.Oauth.t
+)
+ident(
+  int_ref oauth "src/minOCamltter.ml" 96 2923 2933 "src/minOCamltter.ml" 96 2923 2938
+)
+"src/minOCamltter.ml" 97 3026 3048 "src/minOCamltter.ml" 97 3026 3058
+type(
+  Twitter.Oauth.t option
+)
+"src/minOCamltter.ml" 97 3026 3032 "src/minOCamltter.ml" 97 3026 3058
+type(
+  unit
+)
+type(
+  Twitter.Oauth.t option ref -> Twitter.Oauth.t option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/minOCamltter.ml" 98 3060 3066 "src/minOCamltter.ml" 98 3060 3071
+type(
+  Twitter.Oauth.t
+)
+ident(
+  int_ref oauth "src/minOCamltter.ml" 96 2923 2933 "src/minOCamltter.ml" 96 2923 2938
+)
+"src/minOCamltter.ml" 97 3026 3032 "src/minOCamltter.ml" 98 3060 3071
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 96 2923 2929 "src/minOCamltter.ml" 98 3060 3071
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 93 2843 2862 "src/minOCamltter.ml" 98 3060 3071
+type(
+  Twitter.Oauth.t
+)
+"src/minOCamltter.ml" 93 2843 2857 "src/minOCamltter.ml" 98 3060 3071
+type(
+  unit -> Twitter.Oauth.t
+)

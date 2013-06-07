@@ -1,8 +1,18 @@
 ### Starting build.
-# Target: src/ninja.ml.depends, tags: { debug, extension:ml, file:src/ninja.ml, ocaml, ocamldep, quiet, traverse }
-ocamlfind ocamldep -modules src/ninja.ml > src/ninja.ml.depends
-# Target: src/ninja.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ninja.cmo, file:src/ninja.ml, implem, ocaml, quiet, traverse }
-ocamlfind ocamlc -c -g -I src -o src/ninja.cmo src/ninja.ml
-# Target: src/ninja.byte, tags: { byte, debug, dont_link_with, extension:byte, file:src/ninja.byte, link, ocaml, program, quiet, traverse }
-ocamlfind ocamlc -g -linkpkg src/ninja.cmo -o src/ninja.byte
+# Target: src/ninja.ml.depends, tags: { debug, extension:ml, file:src/ninja.ml, oasis_executable_ninja_byte, ocaml, ocamldep, pkg_camlp4, pkg_meta_conv.syntax, pkg_ocaml_conv, pkg_twitter, quiet, syntax_camlp4o, traverse }
+ocamlfind ocamldep -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -modules src/ninja.ml > src/ninja.ml.depends
+# Target: src/minOCamltter.ml.depends, tags: { debug, extension:ml, file:src/minOCamltter.ml, oasis_executable_ninja_byte, ocaml, ocamldep, pkg_camlp4, pkg_meta_conv.syntax, pkg_ocaml_conv, pkg_twitter, quiet, syntax_camlp4o, traverse }
+ocamlfind ocamldep -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -modules src/minOCamltter.ml > src/minOCamltter.ml.depends
+# Target: src/minOCamltter.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/minOCamltter.cmo, file:src/minOCamltter.ml, implem, oasis_executable_ninja_byte, ocaml, pkg_camlp4, pkg_meta_conv.syntax, pkg_ocaml_conv, pkg_twitter, quiet, syntax_camlp4o, traverse }
+ocamlfind ocamlc -c -g -w +a -warn-error +a -annot -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -I src -o src/minOCamltter.cmo src/minOCamltter.ml
++ ocamlfind ocamlc -c -g -w +a -warn-error +a -annot -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -I src -o src/minOCamltter.cmo src/minOCamltter.ml
+findlib: [WARNING] Interface topdirs.cmi occurs in several directories: /usr/local/lib/ocaml/compiler-libs, /usr/local/lib/ocaml
+# Target: src/ninja.cmo, tags: { byte, compile, debug, extension:cmo, extension:ml, file:src/ninja.cmo, file:src/ninja.ml, implem, oasis_executable_ninja_byte, ocaml, pkg_camlp4, pkg_meta_conv.syntax, pkg_ocaml_conv, pkg_twitter, quiet, syntax_camlp4o, traverse }
+ocamlfind ocamlc -c -g -w +a -warn-error +a -annot -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -I src -o src/ninja.cmo src/ninja.ml
++ ocamlfind ocamlc -c -g -w +a -warn-error +a -annot -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 -syntax camlp4o -I src -o src/ninja.cmo src/ninja.ml
+findlib: [WARNING] Interface topdirs.cmi occurs in several directories: /usr/local/lib/ocaml/compiler-libs, /usr/local/lib/ocaml
+# Target: src/ninja.byte, tags: { byte, debug, dont_link_with, extension:byte, file:src/ninja.byte, link, oasis_executable_ninja_byte, ocaml, pkg_camlp4, pkg_meta_conv.syntax, pkg_ocaml_conv, pkg_twitter, program, quiet, traverse }
+ocamlfind ocamlc -g -w +a -warn-error +a -annot -linkpkg -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 src/minOCamltter.cmo src/ninja.cmo -o src/ninja.byte
++ ocamlfind ocamlc -g -w +a -warn-error +a -annot -linkpkg -package twitter -package ocaml_conv -package meta_conv.syntax -package camlp4 src/minOCamltter.cmo src/ninja.cmo -o src/ninja.byte
+findlib: [WARNING] Interface topdirs.cmi occurs in several directories: /usr/local/lib/ocaml/compiler-libs, /usr/local/lib/ocaml
 # Compilation successful.

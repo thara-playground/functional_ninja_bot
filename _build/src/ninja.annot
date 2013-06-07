@@ -1,0 +1,7 @@
+"src/ninja.ml" 1 0 8 "src/ninja.ml" 1 0 30
+type(
+  unit -> Twitter.Oauth.t
+)
+ident(
+  ext_ref MinOCamltter.get_oauth
+)

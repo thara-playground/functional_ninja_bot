@@ -1,13 +1,16 @@
 OASISFormat: 0.3
-Name:        ninja_bot
-Version:     1.00
-Synopsis:    ninja
-Authors:     mzp
-License:     GPL-3.0
-Plugins:     META (0.3), StdFiles (0.3), DevFiles (0.3)
+Name: ninja_bot
+Version: 1.00
+Synopsis: ninja
+Authors: mzp
+License: GPL-3.0
+Plugins: META (0.3), StdFiles (0.3), DevFiles (0.3)
+
+BuildTools: ocamlbuild, camlp4
 
 Executable ninja
-  Path:       src
+  Path: src
   BuildTools: ocamlbuild
-  MainIs:     ninja.ml
-
+  MainIs: ninja.ml
+  Builddepends: twitter, meta_conv.syntax, ocaml_conv, camlp4
+  ByteOpt: -w +a -warn-error +a -annot

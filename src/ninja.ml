@@ -1,1 +1,1 @@
-let _ = print_endline "hello, world!"
+let _ = MinOCamltter.get_oauth
